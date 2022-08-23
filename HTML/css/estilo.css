@@ -1,0 +1,18 @@
+/*Estilo da pagina index*/
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+/*Estilo da pagina racas*/
