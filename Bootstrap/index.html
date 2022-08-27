@@ -9,21 +9,30 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- Link para pegar o estilo Css dos servidores do bootstrap-->
+  <!-- Link para pegar o estilo Css dos servidores do bootstrap--> 
+  <link rel="stylesheet" href="outros/css.css">
+
   <style>
     .tm-social {
       width: 50px;
       height: 50px;
     }
   </style>
-  <title>Bootstrap</title>
+  <title>Guardian tales</title>
 
 </head>
 
 <body>
   <!--Menu-->
   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-    <a class="navbar-brand" href="index.html">Guardian tales</a>
+    <nav class="navbar navbar-light bg-danger">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://preview.redd.it/3vjv15qibis61.png?width=640&crop=smart&auto=webp&s=490aa831c1438a1c2eda7b99a82e23fa7cf8e33b"
+          width="60" height="60" class="d-inline-block align-center" alt="">
+        Guardian tales
+      </a>
+    </nav>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -64,15 +73,15 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img class="d-block w-100" src="https://i.ytimg.com/vi/E9zekXpn9C4/maxresdefault.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
         <img class="d-block w-100"
-          src="https://i0.wp.com/bunnygaming.com/wp-content/uploads/2020/07/HeadArticle_01_NoTXT.jpg?fit=1280%2C720&ssl=1"
-          alt="Primeiro Slide">
+          src="https://assets.change.org/photos/0/ap/dn/aIaPDNwPRXHFZuC-1600x900-noPad.jpg?1611533175"
+          alt="Segundo Slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://i.ytimg.com/vi/vPHP8s0S95Q/maxresdefault.jpg" alt="Segundo Slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://i.ytimg.com/vi/6IruR3ioju8/maxresdefault.jpg" alt="Terceiro Slide">
+        <img class="d-block w-100" src="https://i.ytimg.com/vi/vPHP8s0S95Q/maxresdefault.jpg" alt="Terceiro Slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,111 +98,77 @@
   <!--Jumbutron-->
   <div class="jumbotron jumbotron-fluid bg-danger">
     <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+      <h1 class="display-4 text-light">RPG de ação</h1>
+      <p class="lead text-light">Guardian Tales é um videogame RPG de ação de 2020 desenvolvido pela Kong Studios e
+        publicado pela Kakao Games</p>
     </div>
   </div>
   <!--Jumbutron-->
 
+
   <!--Card-->
   <div class="container">
-    <div class="card-columns">
+    <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <div class="img-container">
+           <img class="card-img-top"
+          src="https://lh3.googleusercontent.com/IEiEV6UZ7Wy3DzF4mReTGowQw0jGiXoAi0Oag701YlI4G6FhNDdRa4aySDs0mi6gggDc=s180-rw"
+          alt="Imagem de capa do card">
+          </div>
         <div class="card-body">
-          <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-          <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
-            um conteúdo adicional. Este conteúdo é um pouco maior.</p>
-        </div>
-      </div>
-      <div class="card p-3">
-        <blockquote class="blockquote mb-0 card-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-        <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional.</p>
-          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-        </div>
-      </div>
-      <div class="card bg-primary text-white text-center p-3">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-          <footer class="blockquote-footer">
-            <small>
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional.</p>
+          <h5 class="card-title">Começe a jogar agora</h5>
+          <p class="card-text">Guardian Tales é um incrível RPG que vem com uma jogabilidade super divertida e gráficos
+            pixelados incríveis.</p>
           <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img" src=".../100px260/" alt="Imagem do card">
-      </div>
-      <div class="card p-3 text-right">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-            </small>
-          </footer>
-        </blockquote>
+        <div class="img-container">
+        <img class="card-img-top" src="https://platinmods.com/attachments/1582680016501-png.197732/"
+          alt="Imagem de capa do card">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gacha</h5>
+          <p class="card-text">Guardian Tales tem um sistema de gacha onde você coleta heróis e armamentos lendários
+            para te ajudar na sua jornada. Assim, sua equipe irá ficando cada vez mais poderosa, até que ninguém mais
+            possa contra você.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
       </div>
       <div class="card">
+        <div class="img-container">
+        <img class="card-img-top"
+          src="https://dl.memuplay.com/new_market/img/com.kakaogames.gdts.icon.2021-08-27-09-14-54.png"
+          alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
-            conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
-            ação.</p>
+          <h5 class="card-title">Season 2</h5>
+          <p class="card-text">Em resposta aos pedidos populares dos jogadores, a possibilidade de reviver a história
+            está sendo introduzida em várias etapas. Isso se aplica às missões principais e secundárias – suas
+            recompensas também estão disponíveis novamente.</p>
           <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
         </div>
       </div>
     </div>
     <!--Card-->
 
-
     <!--Texteo e video-->
     <div class="row mt-5 mb-5">
       <div class="col-md-6">
-        <h3>Texto teste</h3>
+        <h3>Historia do Guardian tales</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi praesentium eum assumenda accusamus sint.
-          Laborum voluptatibus reprehenderit nulla quos optio architecto perferendis. Accusamus consequatur, labore quia
-          eos sed iure necessitatibus?
+          Guardian Tales é um emocionante jogo de RPG da Kakao Games Corp. Você é um cavaleiro do reino de Canterbury,
+          que precisa sair em aventuras, proteger sua terra natal, derrotar inimigos e encontrar novos amigos. O jogo
+          pode ser dividido em 3 partes: passando por masmorras, bombeando heróis e construindo uma cidade. As batalhas
+          acontecem no formato PvE e PvP, inclusive em tempo real. As principais vantagens do jogo: jogabilidade
+          viciante, excelente design visual e uma variedade de atividades.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odit consectetur explicabo voluptates
-          architecto
-          officiis enim, incidunt, harum aspernatur iste magni, sit sapiente consequuntur hic fugiat facilis deleniti
-          amet
-          quidem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae optio, iusto nesciunt suscipit
-          perspiciatis! Harum nulla quo dolore maiores delectus? Est commodi odio similique pariatur aliquam dolore
-          placeat soluta?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae optio, iusto nesciunt suscipit
-          perspiciatis! Harum nulla quo dolore maiores delectus? Est commodi odio similique pariatur aliquam dolore
-          placeat soluta?
+          Guardian Tales é caracterizado por uma variedade de heróis, então para um jogo de sucesso você precisa
+          escolher uma equipe forte e habilidosa. Para ajudar nossos leitores em sua escolha, uma lista de níveis foi
+          preparada. Tentamos considerar os melhores heróis do jogo, classificando-os em níveis e avaliando o sucesso da
+          participação em várias atividades em uma escala de 10 pontos. Siga as recomendações apresentadas e, quando
+          tiver os personagens necessários, atualize-os e coloque-os em esquadrões. Categorias de lista de níveis:
         </p>
       </div>
 
@@ -234,14 +209,23 @@
             <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
+          <div class="form-group d-flex justify-content-end">
+            <button class="btn btn-outline-success">Enviar</button>
+          </div>
         </form>
 
       </div>
       <div class="col-md-6">
-        <iframe class="w-100"
+        <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.810605260361!2d127.10815945023111!3d37.39431104163259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca78aa2e73f59%3A0xe036573df8605642!2sKakao%20Games%20Corp.!5e0!3m2!1spt-BR!2sbr!4v1661537295307!5m2!1spt-BR!2sbr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          width="400" 
+          height="250" 
+          style="border:0;"
+          allowfullscreen="" 
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" 
+>
+        </iframe>
       </div>
     </div>
 

@@ -11,17 +11,22 @@
 }
 
 .fundo{
-    background-image: linear-gradient(to bottom right, #63cdda, #ea8685);
+    
     
 }
+.cabeca{
+    background-color: #050505;
+    min-height: 100px;
+    margin: -1% ;
 
- .img-container img{
+}
+
+.img-container img{
     
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
  }
- 
- .img-container:hover img{
+.img-container:hover img{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
@@ -40,8 +45,9 @@
 
 }
  #menu li a{
-     text-decoration: none;
-     color: rgb(0, 0, 0);
+     text-decoration:none;
+     font-style: unset;
+     color: rgb(253, 253, 253);
      font-size: 20px;
  }
  #menu li a:hover{

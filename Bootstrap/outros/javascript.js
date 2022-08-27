@@ -1,11 +1,3 @@
-/*Case Sensitive
-
-por Tag: getElementByTagName()
-por Id: getElementById()
-por Nome: getElementByName()
-por Classes: getElementByClassName()
-por Seletor: querySelector
-*/
 var nome = window.document.getElementById('nome')
 var email = document.querySelector('#email')
 var assunto = document.querySelector('#assunto')
